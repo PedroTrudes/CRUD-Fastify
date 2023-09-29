@@ -1,0 +1,27 @@
+POST  http://localhost:3333/video
+Content-Type: application/json
+
+{
+    "title": "Video com Body",
+    "description": "teste",
+    "duration": 100
+}
+
+###
+
+GET http://localhost:3333/video 
+
+###
+
+PUT http://localhost:3333/video/4faf46ec-3efd-4c84-bcbc-8de38832cfbb
+Content-Type: application/json
+
+{
+    "title": "Atualizado",
+    "description": "teste",
+    "duration": 100
+}
+
+###
+
+DELETE http://localhost:3333/video/b1044ab0-8616-47ec-a41f-b00999b308cf
